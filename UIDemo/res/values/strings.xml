@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UIDemo</string>
+    <string name="title">你喜欢的运动是：</string>
+    <string name="football">足球</string>
+    <string name="basketball">篮球</string>
+    <string name="volleyball">排球</string>
+    <string name="pingpangball">乒乓球</string>
+
+    <string name="academic_prompt"> 请选择学历 </string>
+    <string-array name="academic">
+        <item> 博士 </item>
+        <item> 硕士 </item>
+        <item> 大学 </item>
+        <item> 大专</item>
+        <item> 高中</item>
+        <item> 中专</item>
+        <item> 初中</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UI 组件示例"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextViewDemo" />
+
+    <Button
+        android:id="@+id/btn_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditTextDemo" />
+
+    <Button
+        android:id="@+id/btn_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ButtonDemo" />
+
+    <Button
+        android:id="@+id/btn_RadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioButtionDemo" />
+
+    <Button
+        android:id="@+id/btn_CheckBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBoxDemo" />
+
+    <Button
+        android:id="@+id/btn_ToggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButtonDemo" />
+
+    <Button
+        android:id="@+id/btn_ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageViewDemo" />
+
+    <Button
+        android:id="@+id/btn_ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressBarDemo" />
+
+    <Button
+        android:id="@+id/btn_Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DialogDemo" />
+
+    <Button
+        android:id="@+id/btn_Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SpinnerDemo" />
+
+</LinearLayout>

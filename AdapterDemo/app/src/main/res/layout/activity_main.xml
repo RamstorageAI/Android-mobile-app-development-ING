@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/arrayAdapterDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:text="ListView + ArrayAdapter Demo" />
+
+    <Button
+        android:id="@+id/simpleAdapterDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:text="ListView + SimpleAdapter Demo" />
+
+    <Button
+        android:id="@+id/baseAdapterDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="ListView + BaseAdapter Demo" />
+
+    <Button
+        android:id="@+id/listActivityDemoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:text="ListView + ListActivity Demo" />
+
+    <Button
+        android:id="@+id/gridViewDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:text="GridView Demo" />
+
+    <Button
+        android:id="@+id/spinnerDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:text="Spinner Demo" />
+
+    <Button
+        android:id="@+id/autoTextDemoBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="10dp"
+        android:text="自动完成文本框案例" />
+
+</LinearLayout>

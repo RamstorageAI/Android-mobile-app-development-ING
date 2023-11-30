@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6EEF1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="#B8B800"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="基于多种对话框交互的\n图书信息卡案例" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:background="@drawable/header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:gravity="center_vertical"
+            android:text="图书名称："
+            android:textColor="#350101"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/bookNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:padding="3dp"
+            android:ems="10"
+            android:textSize="18sp"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="出版年月："
+            android:textColor="#420404"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/publishDateET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffe"
+            android:padding="3dp"
+            android:ems="10"
+            android:textSize="18sp" />
+        <ImageView
+            android:id="@+id/pdIV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/date"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="所属学科："
+            android:textColor="#420404"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/subjectET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffe"
+            android:padding="3dp"
+            android:ems="10"
+
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/sjIV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/categy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="图书类别："
+            android:textColor="#420404"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/typeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffe"
+            android:padding="3dp"
+            android:ems="10"
+
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/tpIV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@mipmap/type" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:text="保存图书信息"
+        android:textSize="18sp"
+        app:backgroundTint="#009688" />
+
+</LinearLayout>

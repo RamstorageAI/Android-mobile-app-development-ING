@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">网易云音乐</string>
+    <string name="hello_blank_fragment">这是首页</string>
+    <string name="hello_blank_fragment2">欢迎来到网易云音乐</string>
+    <string name="hello_blank_fragment3">欢迎来到感兴趣的圈子</string>
+    <string name="hello_blank_fragment4">这是个性化设置模块</string>
+</resources>

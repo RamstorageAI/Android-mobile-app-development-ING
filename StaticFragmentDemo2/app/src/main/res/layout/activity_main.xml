@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#999999"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="#B8B800"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="基于静态Fragment的\n图片展播案例" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.staticfragmentdemo.HXJZGFragment"
+        android:layout_width="match_parent"
+        android:layout_margin="4dp"
+        android:layout_height="140dp" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.staticfragmentdemo.DetailFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="集成实践"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_InfoManage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InfoManageDemo" />
+
+    <Button
+        android:id="@+id/btn_ImageBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageBrowserDemo" />
+
+    <Button
+        android:id="@+id/btn_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayoutDemo" />
+
+    <Button
+        android:id="@+id/btn_MultiLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiLayoutDemo" />
+
+    <Button
+        android:id="@+id/btn_ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConstraintLayoutDemo" />
+
+    <Button
+        android:id="@+id/btn_ImageSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageSwitcherDemo" />
+
+
+</LinearLayout>

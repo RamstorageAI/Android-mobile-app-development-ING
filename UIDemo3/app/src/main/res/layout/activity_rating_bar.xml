@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RatingBarActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpleRatingBar:"
+        android:id="@+id/SimpleRatingBar" />
+    <RatingBar
+        android:layout_marginTop="10dp"
+        style="@style/roomRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="false"
+        android:rating="1.0"
+        android:stepSize="1.0"
+        android:numStars="5"
+        android:id="@+id/ratingBar" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SmallRatingBar:"
+        android:id="@+id/SmallRatingBar" />
+    <RatingBar
+        android:layout_marginTop="10dp"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar1" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ratingBarStyleIndicator:"
+        android:id="@+id/IndicatorRating" />
+    <RatingBar
+        android:layout_below="@+id/IndicatorRating"
+        android:layout_marginTop="10dp"
+        style="?android:ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="1.0"
+        android:numStars="5"
+        android:id="@+id/ratingBar2" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+</LinearLayout>

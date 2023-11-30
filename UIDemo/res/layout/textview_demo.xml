@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 设置字号为20sp -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="美丽中国"
+        android:textSize="20sp" />
+
+    <!-- 设置中间省略，所有字母大写，字号为20sp，内容一行 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:text="中华民族正以不可阻挡的步伐迈向伟大复兴"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <!-- 邮件、电话添加链接 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="邮件：12345@qq.com 电话：073112345678"
+        android:autoLink="email|phone"
+        android:textSize="20sp" />
+  <!-- 测试密码框 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我爱你中国"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+</LinearLayout>

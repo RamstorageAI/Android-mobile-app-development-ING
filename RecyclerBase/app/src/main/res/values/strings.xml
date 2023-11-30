@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RecyclerBase</string>
+
+    <string-array name="sports_category">
+        <item>奥运金报案例2</item>
+        <item>奥运金报案例3</item>
+
+    </string-array>
+</resources>

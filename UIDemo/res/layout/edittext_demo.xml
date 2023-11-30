@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 多行效果-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/phone"
+        android:hint="多行效果"
+        android:textSize="20sp" />
+    <!-- 拨号键盘-->
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="输入电话号码"
+        android:textSize="20sp" />
+     <!-- 密码类型-->
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="输入密码"
+        android:textSize="20sp" />
+
+    <AutoCompleteTextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自动完成文本框"
+        android:textSize="20sp"/>
+
+</LinearLayout>

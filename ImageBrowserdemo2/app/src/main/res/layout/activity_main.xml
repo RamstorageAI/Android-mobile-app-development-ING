@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6EEF1"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="#B8B800"
+        android:gravity="center"
+        android:text="图片浏览案例\n（点击看大图）"
+        android:textSize="26sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/beijing"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/shanghai"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/guangzhou"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!--第二行图片  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/tianjin"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/chongqing"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/wuhan"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <!--第三行图片  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/guiyang"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/nanjing"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/xian"
+            android:background="#EAE5BB"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

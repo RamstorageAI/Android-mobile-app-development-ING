@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D6EEF1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dip"
+        android:background="#B8B800"
+        android:gravity="center"
+        android:text="基于外存文件的\n数据读写案例"
+        android:textSize="26sp" />
+
+
+    <TextView
+        android:id="@+id/currentPath"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="5dp"
+        android:text="当前路径："
+        android:textColor="#444"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dataArea"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_margin="5dp"
+        android:background="#DDE3E3"
+        android:textColor="#444"
+        android:scrollbars="vertical"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="创建jcut目录，并在其中新建data.dat文件，写入99个随机数"
+        android:textSize="17sp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="从外存jcut目录下读data.dat文件，将所有数据显示在页面上"
+        android:textSize="17sp" />
+
+
+
+</LinearLayout>

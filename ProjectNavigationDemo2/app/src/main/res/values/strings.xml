@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ProjectNavigationDemo</string>
+
+    <string-array name="channelList2">
+        <item>关注</item>
+        <item>头条</item>
+        <item>视频</item>
+        <item>长沙</item>
+        <item>要闻</item>
+        <item> 新时代</item>
+        <item>娱乐</item>
+    </string-array>
+
+    <string-array name="sports_category">
+        <item>田径</item>
+        <item>赛艇</item>
+        <item>跆拳道</item>
+        <item>自行车</item>
+        <item>帆船</item>
+        <item>皮划艇</item>
+        <item>射箭</item>
+        <item>射击</item>
+        <item>游泳</item>
+        <item>铁人三项</item>
+        <item>现代五项</item>
+        <item>拳击</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6EEF1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/earth3"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/earth3"/>
+    <ImageView
+        android:id="@+id/earth2"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@id/earth3"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBaseline="@id/earth3"
+        android:layout_marginBottom="40dp"
+
+        android:src="@drawable/earth2"/>
+    <TextView
+        android:id="@+id/chineseTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/earth3"
+        android:layout_alignRight="@id/earth3"
+        android:textColor="#3F51B5"
+        android:text="人类命运共同体！"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/englishTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chineseTV"
+        android:layout_alignLeft="@id/earth3"
+        android:layout_marginTop="40dp"
+        android:text="One world, One Dream"
+        android:textColor="#3F51B5"
+        android:textSize="24sp"
+        android:textStyle="italic"/>
+</RelativeLayout>

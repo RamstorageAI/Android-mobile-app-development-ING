@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AdapterDemo</string>
+    <string-array name="teacher_name">
+        <item>张三</item>
+        <item>李四</item>
+        <item>王五</item>
+        <item>赵六</item>
+    </string-array>
+
+    <string-array name="news_category">
+        <item>新闻</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>体育</item>
+        <item>娱乐</item>
+        <item>汽车</item>
+        <item>博客</item>
+        <item>读书</item>
+    </string-array>
+
+    <string-array name="sports_category">
+        <item>田径</item>
+        <item>赛艇</item>
+        <item>跆拳道</item>
+        <item>自行车</item>
+        <item>帆船</item>
+        <item>皮划艇</item>
+        <item>射箭</item>
+        <item>射击</item>
+        <item>游泳</item>
+        <item>铁人三项</item>
+        <item>现代五项</item>
+        <item>拳击</item>
+    </string-array>
+
+</resources>
